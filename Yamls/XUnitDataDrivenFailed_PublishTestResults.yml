@@ -17,3 +17,4 @@ jobs:
       testResultsFormat: 'VSTest' # Options: JUnit, NUnit, VSTest, xUnit, cTest
       testResultsFiles: '**/xunitdatadrivenfailed.trx' 
       searchFolder: '$(System.DefaultWorkingDirectory)/TrxFiles' # Optional
+      failTaskOnFailedTests: 'true'
